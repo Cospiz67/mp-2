@@ -17,9 +17,9 @@ export default function Bar(){
     return (
         <>
             <Container>
-                <StyledImg src="src/assets/logo f1.png" alt ="logo f1"></StyledImg>
+                <StyledImg src="./logo f1.png" alt ="logo f1"></StyledImg>
                 <h1>Drivers of Formula 1</h1>
-                <StyledImg src="src/assets/car.png" alt ="logo f1 car"></StyledImg>
+                <StyledImg src="./car.png" alt ="logo f1 car"></StyledImg>
             </Container>
 
         </>

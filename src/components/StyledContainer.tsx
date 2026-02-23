@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledContainer =styled.div`
     background-color: #B91C1C;
     border: 20px solid transparent;
-    border-image: url("src/assets/damier.png") 100 round;
+    border-image: url("./damier.png") 100 round;
     width: 100%;
     min-height:100vh;
     background-image: repeating-linear-gradient(
