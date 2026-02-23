@@ -30,7 +30,7 @@ const StyledImg = styled.img`
 `
 
 function getDriverImage(driverId: string){
-  return "../src/assets/" + driverId +".jpg";
+  return "src/assets/" + driverId +".jpg";
 }
 
 
@@ -51,7 +51,7 @@ export default function Driver(props:{data: DriversType[], selectedTeam: string}
                   <StyledP>Team: {driver.teamId}</StyledP>
                   <StyledImg src={getDriverImage(driver.driverId)} alt={driver.driverId}
                     onError={(e) => {
-                      e.currentTarget.src = "../src/assets/default.png";
+                      e.currentTarget.src = "src/assets/default.png";
                     }}></StyledImg>
                 </DriverCard>
             )
